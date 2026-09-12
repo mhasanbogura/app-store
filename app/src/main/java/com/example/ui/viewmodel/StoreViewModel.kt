@@ -50,7 +50,7 @@ class StoreViewModel(application: Application) : AndroidViewModel(application) {
     val driveFolderId = _driveFolderId.asStateFlow()
 
     val driveApiKey: String
-        get() = prefs.getString("api_key", "AIzaSyA4ymjFIbuGVhFsKjxVV46RT-qWqNHNiY4") ?: "AIzaSyA4ymjFIbuGVhFsKjxVV46RT-qWqNHNiY4"
+        get() = prefs.getString("api_key", "AIzaSyAX7T6Vd75LnhQg15IydOLEYqjfGUT8TO8") ?: "AIzaSyAX7T6Vd75LnhQg15IydOLEYqjfGUT8TO8"
 
     // Common Settings
     private val appStorePrefs = application.getSharedPreferences("app_store_prefs", Context.MODE_PRIVATE)
