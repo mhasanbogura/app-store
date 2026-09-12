@@ -1,0 +1,6 @@
+{
+  "name": "App Store",
+  "description": "A Google Drive-powered self-hosted Android App Store to browse, search, and install APK files smoothly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
